@@ -90,12 +90,35 @@ uv add requests==2.32.3
 You can also add dependencies by writing its name and version in pyproject.toml
 
 
-5. 
+5. To uninstall a dependency
 
+uv remove [dependency name]
+
+uv remove requests
+
+
+6. To downgrade python version
+
+Go to pyproject.toml and .python-version and edit the python version
+
+
+7. To synchronize the virtual environment with dependencies specified in pyproject.toml (including newly added or removed dependencies)
+
+uv sync
+
+
+8. To generate or update the uv.lock (counterpart in Node is package-json.lock)
+
+uv lock
+
+
+9. To go back to legacy pip
+
+uv pip
 
 
 Documentation:
 
-Run the terminal 
+Easier compare to pip because it uninstall the dependency easily and its other related files to that dependency.
 
 https://docs.astral.sh/uv/

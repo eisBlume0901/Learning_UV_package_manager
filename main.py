@@ -1,10 +1,8 @@
-# /// script
-# requires-python = ">=3.13"
-# dependencies = [
-#     "requests",
-# ] 
-# ///
+import pygame
 
-import sys
+def main():
+    print("This is a demo how to use UV")
 
-print(sys.version)
+
+if __name__ == "__main__":
+    main()
