@@ -64,6 +64,7 @@ It can be manually added as long as you know the library name:
 # ///
 
 
+
 For python projects
 
 1. To create a new project (with other files such as .gitignore, .python-version, main.py, pyproject.toml, README.md),
